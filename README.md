@@ -8,3 +8,7 @@ cmake –build –preset “ROCm 7”
 
 Release program:
 go build -tags=nolegacy -ldflags="-s -w -X main.Version=0.13.0"
+
+Refrence:
+https://www.cnblogs.com/taozebra/p/19225796
+https://www.cnblogs.com/taozebra/p/19252218
